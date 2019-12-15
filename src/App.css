@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  background: lightgray;
+  box-shadow: 5px 5px 10px black;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+.gif-car {
+  width: 6rem;
+  transform: rotateY(180deg);
+  animation: animateCar 2s infinite alternate-reverse;
+  position: relative;
+}
+/* .flex-item {
+} */
+@keyframes animateCar {
+  0% {
+    left: 1%;
+  }
+  5% {
+    left: 2%;
+  }
+  25% {
+    left: 3%;
+  }
+
+  50% {
+    left: 2%;
+  }
+  75% {
+    left: 1%;
+  }
+  100% {
+    left: 0%;
+  }
+}
